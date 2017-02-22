@@ -1,3 +1,4 @@
+
 <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
@@ -19,8 +20,8 @@
 <div class="container" ng-controller="appController">
     <div class="panel-body">
         <table class="table table-striped" ng-show="customers.length!=0">
-            <tr><th>Username</th><th>Age</th></tr>
-            <tr ng-repeat="customer in customers">
+            <tr><th>Username</th><th>UserAge</th></tr>
+             <tr ng-repeat="customer in customers">
                 <td>{{ customer.NAME }}</td>
                 <td>{{ customer.AGE }}</td>
             </tr>
